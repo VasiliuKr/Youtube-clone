@@ -1,0 +1,294 @@
+/*
+  ========================================
+  Reset
+  ========================================
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+
+
+.header {
+	height: 50px;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	border-bottom: 1px solid #767676
+}
+.logo img {
+	height: 45px;
+	margin-left: 40px
+}
+.header > div {
+	position: relative;
+	float: left
+}
+.search {
+	margin-left: 50px;
+	margin-top: 10px
+}
+.search input {
+	font-size: 20px
+}
+.button {
+	margin-left: 320px;
+	height: 50px
+}
+.button p {
+	border: solid 1px black;
+	padding: 5px;
+	margin-top: 10px
+}
+.button a {
+	text-decoration: none;
+	color: black
+}
+.bell {
+	margin: 10px 20px 0 28px
+}
+.account {
+	margin: 8px 8px 0 8px
+}
+.account img {
+	height: 35px
+}
+.player-container {
+	float: left;
+	margin-top: 50px;
+	width: 900px;
+	height: 480px;
+}
+.player-container iframe {
+	margin-left: 40px;
+	margin-top: 10px
+}
+.watch-container {
+	float: left;
+	width: 900px;
+}
+.watch-header {
+	width: 817px;
+	height: 130px;
+	margin: auto;
+}
+.watch-header h1 {
+	font: normal 25px Arial;
+	padding: 15px 10px 0 10px
+}
+.video-uploader {
+	margin: 10px
+}
+.video-uploader .views {
+	margin-left: 480px;
+	font: normal 25px Arial;
+	color: #767676;
+	border-bottom: 2px solid blue
+}
+.video-uploader-name div {
+	margin-bottom: 10px
+}
+.video-uploader-name {
+	display: inline-block;
+	margin-left: 5px;
+	font: normal 13px Arial;
+}
+.video-uploader-name a {
+	text-decoration: none;
+	color: black;
+}
+.video-uploader-name a:hover {
+	text-decoration: underline
+}
+.video-uploader img {
+	vertical-align: top
+}
+.suscribe-button {
+	border: 1px solid #767676
+}
+.suscribe-button button {
+	background-color: red;
+	border: 0;
+	padding: 4px;
+	color: white;
+}
+.suscribe-button button:hover {
+	background-color: #B4150E;
+	cursor: pointer;
+}
+.suscribe-button span {
+	margin: 0 7px;
+	color: #767676;
+}
+.watch-description {
+	width: 817px;
+	height: 100px;
+	margin: auto;
+}
+.watch-description p {
+	font: normal 12px Arial;
+	margin-left: 10px
+}
+.watch-discussion {
+	width: 817px;
+	margin: auto;
+}
+.watch-discussion p {
+	margin-top: -15px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	font: normal 16px Arial;
+}
+.watch-discussion img {
+	margin-left: 10px;
+	margin-right: 20px;
+	padding-bottom: 20px
+}
+.sidebar {
+	display: inline-block;
+	margin-top: 50px;
+}
+.sidebar ul {
+	list-style-type: none;
+	margin-top: 0;
+}
+.sidebar .video-wrapper {
+	float: left;
+}
+.sidebar .video-info {
+	width: 280px;
+	font-family: Arial;
+	float: left;
+	height: 95px
+}
+.video-info p {
+	margin-left: 7px;
+}
+.video-name {
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	
+}
+.video-name:hover {
+	color: blue;
+}
+.video-author {
+	font-size: 11px;
+	color: #767676
+}
+.video-views {
+	font-size: 11px;
+	color: #767676
+}
+.comment-sort {
+	margin: 10px;
+	border-top: 1px solid #767676
+}
+.comment-sort select {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	padding: 5px;
+	font: normal 12px Arial;
+}
+.comment-sort select:hover {
+	cursor: pointer;
+	background-color: #F5E6E6
+}
+.comment img {
+	vertical-align: top
+}
+.comment-info {
+	display: inline-block;
+}
+.comment-author {
+	font: bold 12px Arial;
+	color: blue
+}
+.comment-time {
+	margin-left: 5px;
+	font:normal 12px Arial;
+	color: #767676
+}
+.comment-text p {
+	font:normal 12px Arial;
+	width: 600px;
+	margin-top: 5px;
+	margin-left: 0;
+	margin-bottom: 0
+}
+.footer {
+	height: 140px;
+}
+.footer-main {
+	height: 45px;
+}
+.clearfix {
+	clear: both;
+}
+.navigation li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 15px
+}
+.navigation img {
+	height: 45px;
+	margin-left: 40px;
+	vertical-align: middle;
+}
+.navigation select {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	padding: 5px;
+	font: normal 12px Arial;
+}
+.navigation select:hover {
+	cursor: pointer;
+	background-color: #F5E6E6
+}
+.footer-links ul {
+	padding-left: 40px;
+	padding-top: 20px
+}
+.footer-links a {
+	text-decoration: none;
+	font: bold 13px Arial;
+	color: black
+}
+.footer-links a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+.nav {
+	margin-top: -15px
+}
+.footer-links .nav a {
+	font-size: 11px;
+	color: #767676;
+}
+.nav a:hover {
+	color: blue
+}
